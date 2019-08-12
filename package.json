@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-lucky-orange",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby plugin to add LuckyOrange analytics to your site.",
   "main": "index.js",
   "scripts": {
