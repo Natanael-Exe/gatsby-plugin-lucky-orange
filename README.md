@@ -1,6 +1,6 @@
 # gatsby-plugin-lucky-orange
 
-Easily add Hotjar Analytics to your Gatsby site.
+Easily add Lucky Orange Analytics to your Gatsby site.
 
 ## Install
 `npm install gatsby-plugin-lucky-orange`
