@@ -11,13 +11,12 @@ exports.onRenderBody = function (_ref, pluginOptions) {
 
   if (process.env.NODE_ENV === "production") {
     var id = pluginOptions.id,
-        url = pluginOptions.url,
-        //host = pluginOptions.host;
+        host = pluginOptions.host;
 
     return setPostBodyComponents([_react2.default.createElement("script", {
       key: "gatsby-plugin-hotjar",
       dangerouslySetInnerHTML: {
-        __html: "\n               window.__lo_site_id = " + id + ";\n            (function(){\n               var wa = document.createElement('script');\n         wa.type = 'text/javascript';\n         wa.async = true;\n        wa.src = " + url + ";\n               var s = document.getElementsByTagName('script')[0];\n    s.parentNode.insertBefore(wa, s)}\n )()\n"
+        __html: "\n               window.__lo_site_id = " + id + ";\n            (function(){\n               var wa = document.createElement('script');\n         wa.type = 'text/javascript';\n         wa.async = true;\n        wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';\n               var s = document.getElementsByTagName('script')[0];\n    s.parentNode.insertBefore(wa, s)}\n )()\n"
       }
     })]);
   }

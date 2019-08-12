@@ -13,8 +13,7 @@ plugins: [
   {
     resolve: `gatsby-plugin-lucky-orange`,
     options: {
-      id: YOUR_LUCKY_ORANGE_ID,
-      url: YOUR_LUCKY_ORANGE_LINK
+      id: YOUR_LUCKY_ORANGE_ID
     },
   },
 ]
